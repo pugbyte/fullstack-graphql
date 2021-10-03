@@ -11,6 +11,7 @@ const PETS_FIELDS = gql`
     name
     type
     img
+    isVaccinated @client
     owner {
       id
       age @client
@@ -58,6 +59,12 @@ export default function Pets() {
           type: input.type,
           id: Math.floor(Math.random() * 1000).toString(),
           img: "https://via.placeholder.com/300",
+          owner: {
+            __typename: "User",
+            id: "ass",
+            age: 35,
+          },
+          isVaccinated: true,
         },
       },
     });
