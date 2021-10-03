@@ -36,6 +36,13 @@
       "name": "Garfield",
       "type": "CAT",
       "user": "jBWMVGjm50l6LGwepDoty"
+    },
+    {
+      "id": "Cb4UBiadTcXugTdkRT0Am",
+      "createdAt": 1633222536266,
+      "name": "Bulk",
+      "type": "DOG",
+      "user": "jBWMVGjm50l6LGwepDoty"
     }
   ]
 }
